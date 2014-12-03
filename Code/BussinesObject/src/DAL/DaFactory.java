@@ -9,6 +9,11 @@ package DAL;
  *
  * @author Benjamin
  */
-public class DaCursist {
+public class DaFactory {
+    
+    private static DaDocent daDocent;
+    private static DaCursist daCursist;
+    private static DaLokaal daLokaal;
+    private static DaModule daModule;
     
 }

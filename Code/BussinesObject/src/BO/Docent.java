@@ -9,7 +9,7 @@ package BO;
  *
  * @author Benjamin
  */
-public class Docent {
+public class Docent extends DAL.DaDocent{
     private String DocentenNaam;
     private int ID;
 }

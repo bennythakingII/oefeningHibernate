@@ -9,7 +9,7 @@ package BO;
  *
  * @author Benjamin
  */
-public class Lokaal {
+public class Lokaal extends DAL.DaLokaal{
     
     private String klassnummer;
     //private int ID;

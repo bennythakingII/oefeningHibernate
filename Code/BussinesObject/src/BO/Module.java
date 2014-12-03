@@ -9,7 +9,7 @@ package BO;
  *
  * @author Benjamin
  */
-public class Module {
+public class Module extends DAL.DaModule{
     private int ID;
     private String ModuleNaam;
 }

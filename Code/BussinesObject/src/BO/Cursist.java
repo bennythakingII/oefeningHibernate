@@ -9,8 +9,21 @@ package BO;
  *
  * @author Benjamin
  */
-public class Cursist {
+public class Cursist extends DAL.DaCursist{
     
     private String Cursistennaam;
     private int ID;
+
+    public Cursist() {}
+    
+    
+    
+    public Cursist(String Cursistennaam, int ID) {
+        this.Cursistennaam = Cursistennaam;
+        this.ID = ID;
+    }
+
+   
+    
+    
 }

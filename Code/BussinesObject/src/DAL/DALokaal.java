@@ -9,6 +9,6 @@ package DAL;
  *
  * @author Benjamin
  */
-public class DALokaal {
+public class DaLokaal {
     
 }
