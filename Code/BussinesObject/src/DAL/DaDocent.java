@@ -3,13 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package BO;
+package DAL;
 
 /**
  *
  * @author Benjamin
  */
-public class Module {
-    private int ID;
-    private String ModuleNaam;
+public class DaDocent {
+    
 }

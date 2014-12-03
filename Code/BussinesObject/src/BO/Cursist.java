@@ -11,4 +11,6 @@ package BO;
  */
 public class Cursist {
     
+    private String Cursistennaam;
+    private int ID;
 }

@@ -10,5 +10,6 @@ package BO;
  * @author Benjamin
  */
 public class Docent {
-    
+    private String DocentenNaam;
+    private int ID;
 }

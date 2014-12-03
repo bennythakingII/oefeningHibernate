@@ -11,4 +11,6 @@ package BO;
  */
 public class Lokaal {
     
+    private String klassnummer;
+    //private int ID;
 }
