@@ -5,10 +5,16 @@
  */
 package DAL.Interface;
 
+import BO.Lokaal;
+import java.util.List;
+
 /**
  *
  * @author Benjamin
  */
-public class IDaLokaal {
-    
+public interface IDaLokaal {
+    void opslaan(Lokaal s);
+    void verwijderen (int ID );
+    List<Lokaal> allesOphalen();
+    Lokaal ophalen(int Id);
 }

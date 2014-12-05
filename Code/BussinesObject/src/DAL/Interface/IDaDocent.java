@@ -5,10 +5,17 @@
  */
 package DAL.Interface;
 
+import BO.Docent;
+import java.util.List;
+
+
 /**
  *
  * @author Benjamin
  */
-public class IDaDocent {
-    
+public interface IDaDocent {
+    void opslaan(Docent s);
+    void verwijderen (int ID );
+    List<Docent> allesOphalen();
+    Docent ophalen(int Id);
 }

@@ -5,15 +5,18 @@
  */
 package DAL;
 
-/**
- *
- * @author Benjamin
- */
+
+import DAL.Interface.IDaCursist;
+import DAL.Interface.IDaDocent;
+import DAL.Interface.IDaLokaal;
+import DAL.Interface.IDaModule;
+
 public class DaFactory {
     
     private static DaDocent daDocent;
     private static DaCursist daCursist;
     private static DaLokaal daLokaal;
     private static DaModule daModule;
+    
     
 }

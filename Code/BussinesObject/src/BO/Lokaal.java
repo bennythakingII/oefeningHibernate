@@ -12,5 +12,5 @@ package BO;
 public class Lokaal extends DAL.DaLokaal{
     
     private String klassnummer;
-    //private int ID;
+    private int ID;
 }

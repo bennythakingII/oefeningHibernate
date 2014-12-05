@@ -5,10 +5,16 @@
  */
 package DAL.Interface;
 
+import BO.Cursist;
+import java.util.List;
+
 /**
  *
  * @author Benjamin
  */
-public class IDaCursist {
-    
+public interface IDaCursist {
+    void opslaan(Cursist s);
+    void verwijderen (int ID );
+    List<Cursist> allesOphalen();
+    Cursist ophalen(int Id);
 }

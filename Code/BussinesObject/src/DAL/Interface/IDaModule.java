@@ -5,10 +5,16 @@
  */
 package DAL.Interface;
 
+import BO.Module;
+import java.util.List;
+
 /**
  *
  * @author Benjamin
  */
-public class IDaModule {
-    
+public interface IDaModule {
+    void opslaan(Module s);
+    void verwijderen (int ID );
+    List<Module> allesOphalen();
+    Module ophalen(int Id);
 }
